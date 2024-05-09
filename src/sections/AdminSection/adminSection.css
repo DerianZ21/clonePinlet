@@ -1,0 +1,190 @@
+.admin-section {
+  position: relative;
+}
+
+.admin-section .pinlet {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: bold;
+  color: #FF4525;
+  margin: 0px;
+}
+
+.admin-section .resident {
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  font-weight: bold;
+  color: #FF4525;
+  margin: 0px;
+}
+
+.admin-section .features {
+  color: gray;
+  margin: 0px;
+  font-size: .8rem;
+  letter-spacing: normal;
+}
+
+.admin-section .background {
+  position: relative;
+  top: 0px;
+  z-index: 0;
+  margin-top: -4rem;
+}
+
+.admin-section .text-content {
+  position: relative;
+  z-index: 1;
+  /* margin-top: 3rem; */
+}
+
+.admin-section .text-content > div {
+  margin-top: 5.5rem;
+}
+
+.admin-section .resident-item-wrapper {
+  margin-top: 1.5rem;
+}
+
+.admin-section .extra-info {
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .admin-section .pinlet {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  
+  .admin-section .resident {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  
+  .admin-section .features {
+    color: gray;
+    font-size: 20px;
+  }
+  
+  .admin-section .background {
+    margin-top: -4.5rem;
+    position: absolute;
+    top: 0px;
+    z-index: 0;
+    margin-top: -4rem;
+  }
+  
+  .admin-section .text-content {
+    margin-top: 0px;
+  }
+
+  .admin-section .text-content > div {
+    margin-top: 1rem;
+  }
+
+  .admin-section .resident-item-wrapper {
+    margin-top: 6rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .admin-section .pinlet {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  
+  .admin-section .resident {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+  
+  .admin-section .features {
+    color: gray;
+    font-size: 20px;
+  }
+  
+  .admin-section .background {
+    margin-top: -2rem;
+    width: 103%;
+  }
+  
+  .admin-section .text-content {
+    margin-top: 0px;
+  }
+
+  .admin-section .resident-item-wrapper {
+    margin-top: 2.5rem;
+  }
+
+  .admin-section .extra-info {
+    margin-top: 3.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .admin-section .pinlet {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+  
+  .admin-section .resident {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  
+  .admin-section .features {
+    color: gray;
+    font-size: 24px;
+  }
+  
+  .admin-section .background {
+    margin-top: -3.5rem;
+    width: 103%;
+  }
+  
+  .admin-section .text-content {
+    margin-top: 0px;
+  }
+
+  .admin-section .resident-item-wrapper {
+    margin-top: 2.5rem;
+  }
+
+  .admin-section .extra-info {
+    margin-top: 6rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .admin-section .pinlet {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+  
+  .admin-section .resident {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  
+  .admin-section .features {
+    color: gray;
+    font-size: 24px;
+  }
+  
+  .admin-section .background {
+    margin-top: -4.5rem;
+    width: 100%;
+  }
+  
+  .admin-section .text-content {
+    margin-top: 0px;
+  }
+
+  .admin-section .resident-item-wrapper {
+    margin-top: 2.5rem;
+  }
+
+  .admin-section .extra-info {
+    margin-top: 7.5rem;
+  }
+}

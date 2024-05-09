@@ -1,0 +1,135 @@
+.residents-section {
+  margin-top: 4rem;
+  margin-bottom: 10rem;
+}
+
+.residents-section .pinlet {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: bold;
+  color: #FF4525;
+  margin: 0px;
+}
+
+.residents-section .resident {
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  font-weight: bold;
+  color: #FF4525;
+  margin: 0px;
+}
+
+.residents-section .features {
+  color: gray;
+  margin: 0px;
+  font-size: .8rem;
+  letter-spacing: normal;
+}
+
+.residents-section .background {
+  margin-bottom: -2rem;
+}
+
+@media (min-width: 576px) {
+  .residents-section {
+    margin-bottom: 8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .residents-section {
+    margin-top: 4rem;
+  }
+  
+  .residents-section .pinlet {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+  
+  .residents-section .resident {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+  
+  .residents-section .features {
+    font-size: 24px;
+  }
+
+  .residents-section .background {
+    margin-bottom: 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  .residents-section {
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+  }
+  
+  .residents-section .pinlet {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  
+  .residents-section .resident {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+  }
+  
+  .residents-section .features {
+    font-size: 20px;
+  }
+
+  .residents-section .background {
+    margin-bottom: 0px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .residents-section {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+  }
+  
+  .residents-section .pinlet {
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+  }
+  
+  .residents-section .resident {
+    font-size: 3.6rem;
+    line-height: 3.6rem;
+  }
+  
+  .residents-section .features {
+    font-size: 22px;
+  }
+
+  .residents-section .background {
+    margin-bottom: 0px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .residents-section {
+    margin-top: 12rem;
+  }
+  
+  .residents-section .pinlet {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+  
+  .residents-section .resident {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+  
+  .residents-section .features {
+    font-size: 24px;
+  }
+
+  .residents-section .background {
+    margin-bottom: 0px;
+  }
+}

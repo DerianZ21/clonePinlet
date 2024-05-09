@@ -1,0 +1,77 @@
+.reviews-section {
+  margin-top: 4rem;
+  background: url('/public/assets/Recurso12-min.jpg');
+  background-repeat: no-repeat ;
+  background-size: cover;
+  position: relative;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+} 
+
+.reviews-section .header-wrapper {
+  margin: 2rem 0px;
+} 
+
+.reviews-section .header {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+} 
+
+.reviews-section .arrow {
+  max-width: 32px;
+}
+
+.reviews-section .starts-wrapper {
+  margin-top: 4px;
+}
+
+.reviews-section .bottom-space {
+  height: 3rem;
+}
+
+
+@media (min-width: 768px) {  
+  .reviews-section .header-wrapper {
+    margin: 2rem 0px;
+  } 
+  
+  .reviews-section .header {
+    font-size: 3.5rem;
+  } 
+  
+  .reviews-section .arrow {
+    max-width: 56px;
+  }
+  
+  .reviews-section .bottom-space {
+    height: 5rem;
+  }
+
+}
+
+@media (min-width: 992px) {  
+
+  .reviews-section .header-wrapper {
+    margin: 2rem 0px;
+  } 
+  
+  .reviews-section .header {
+    font-size: 3.5rem;
+  } 
+  
+  .reviews-section .bottom-space {
+    height: 3rem;
+  }
+}
+
+
+@media (min-width: 1400px) {  
+  .reviews-section {
+    margin-top: 8rem;
+  }
+
+  .reviews-section .bottom-space {
+    height: 2rem;
+  }
+}

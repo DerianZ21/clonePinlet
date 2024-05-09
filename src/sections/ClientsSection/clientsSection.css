@@ -1,0 +1,262 @@
+.clients-section {
+
+}
+
+.clients-section .videos-wrapper {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  padding: 1rem;
+}
+
+.clients-section .events-wrapper {
+  padding: 1rem;
+  margin: 4rem auto;
+}
+
+.clients-section .clients-wrapper {
+  padding: 1rem;
+  margin: 4rem auto;
+}
+
+.clients-section .options-wrapper {
+  padding: 1rem;
+  margin: 4rem auto;
+}
+
+.clients-section .available-wrapper {
+  padding: 1rem;
+  margin-top: 12rem;
+  margin-bottom: 4rem;
+  /* background: linear-gradient(to bottom, #FF4525 0%, #FF4525 50%, white 50%, white 100%); */
+  position: relative;
+}
+
+.clients-section .client-logo {
+  max-width: 108px;
+  height: auto;
+  margin: 1rem;
+}
+
+.clients-section .client-logo.max {
+  max-width: 256px;
+}
+
+.clients-section .available-wrapper .text-content {
+  position: relative;
+  z-index: 1;
+}
+
+.clients-section .available-wrapper .background {
+  position: absolute;
+  top: 0px;
+  z-index: 0;
+  margin-top: -6rem;
+}
+
+.clients-section .available-wrapper .market {
+  max-width: 240px;
+  width: 200px;
+  height: auto;
+}
+
+
+
+.clients-section .available-wrapper .title {
+  margin-top: 6rem;
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.clients-section .header-title {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.clients-section .available-wrapper .text-content > div {
+  margin-top: 1rem;
+}
+
+.clients-section .arrow {
+  max-width: 32px;
+}
+
+.clients-section .market-wrapper {
+  margin-top: 1rem;
+}
+
+.clients-section .markets {
+  margin-top: 1.5rem;
+}
+
+.market-wrapper {
+  width: auto!important;
+}
+
+@media (min-width: 768px) { 
+  .clients-section .client-logo {
+    max-width: 128px;
+    height: auto;
+    margin: 1rem;
+  }
+ .market-wrapper {
+    width: auto!important;
+  }
+  .clients-section .arrow {
+    max-width: 48px;
+  }
+
+  .clients-section .header-title {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+
+  }
+
+  .clients-section .available-wrapper .title {
+    margin-top: 0rem;
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .clients-section .available-wrapper .market {
+    max-width: 240px;
+  }
+
+  .clients-section .available-wrapper .text-content > div {
+    margin-top: 13rem;
+  }
+}
+
+@media (min-width: 992px) { 
+  .clients-section .client-logo {
+    max-width: 128px;
+    height: auto;
+    margin: 1rem;
+  }
+  .market-wrapper {
+    width: auto!important;
+  }
+  .clients-section .arrow {
+    max-width: 48px;
+  }
+
+  .clients-section .header-title {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .clients-section .available-wrapper .title {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    color: #364550;
+    margin-left: -1rem;
+  }
+
+  .clients-section .available-wrapper .market {
+    max-width: 192px;
+  }
+
+  .clients-section .available-wrapper .markets {
+    margin-top: 0rem;
+  }
+
+  .clients-section .available-wrapper .market-wrapper {
+    padding-left: 0rem;
+  }
+
+  .clients-section .available-wrapper .text-content > div {
+    margin-top: 0rem;
+  }
+
+  .clients-section .available-wrapper .text-content > div > div {
+    margin-left: -2.5rem;
+  }
+}
+
+@media (min-width: 1200px) { 
+  .clients-section .client-logo {
+    max-width: 128px;
+    height: auto;
+    margin: 1rem;
+  }
+
+  .clients-section .arrow {
+    max-width: 48px;
+  }
+  .market-wrapper {
+    width: auto!important;
+  }
+  .clients-section .header-title {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .clients-section .available-wrapper {
+    margin-bottom: 8rem;
+  }
+
+  .clients-section .available-wrapper .title {
+    font-size: 3rem;
+    line-height: 3rem;
+    color: #364550;
+  }
+
+  .clients-section .available-wrapper .market {
+    max-width: 240px;
+  }
+
+
+  .clients-section .available-wrapper .text-content > div {
+    margin-top: 1rem;
+  }
+
+  .clients-section .available-wrapper .text-content > div > div {
+    margin-left: -3rem;
+  }
+}
+
+@media (min-width: 1400px) { 
+  .clients-section .client-logo {
+    max-width: 128px;
+    height: auto;
+    margin: 1rem;
+  }
+
+  .clients-section .arrow {
+    max-width: 48px;
+  }
+
+  .clients-section .header-title {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .clients-section .available-wrapper {
+    margin-bottom: 12rem;
+  }
+
+  .clients-section .available-wrapper .title {
+    font-size: 3rem;
+    line-height: 3rem;
+    color: #364550;
+  }
+
+  .clients-section .available-wrapper .market {
+    max-width: 240px;
+  }
+
+  .clients-section .available-wrapper .text-content > div {
+    margin-top: 3rem;
+  }
+
+  .clients-section .available-wrapper .text-content > div > div {
+    margin-left: -2rem;
+  }
+}

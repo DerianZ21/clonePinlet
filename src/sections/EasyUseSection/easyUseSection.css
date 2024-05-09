@@ -1,0 +1,167 @@
+.easy-to-use {
+  margin-top: 4rem;
+}
+
+.easy-to-use .title {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-bottom: 5rem;
+}
+
+.easy-to-use .background {
+  position: absolute;
+  top: -25vw;
+  margin: 0rem;
+  margin-left: -1rem;
+  /* z-index: -1; */
+}
+
+.easy-to-use .steps-list {
+  position: relative;
+  z-index: 1;
+  padding: 0rem .5rem;
+  margin-top: 1rem;
+}
+
+.easy-to-use .videos-list {
+  margin-top: 3rem;
+  position: relative;
+  z-index: 1;
+}
+
+.easy-to-use .videos-list .placeholder {
+  /* background-color: gray; */
+  opacity: 1;
+  min-height: 128px;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.easy-to-use .btn-tutorial {
+  max-width: 128px;
+  margin-top: .8rem;
+  margin-bottom: .8rem;
+}
+
+@media (min-width: 384px) {
+  .easy-to-use .steps-list {
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 445px) {
+  .easy-to-use .steps-list {
+    margin-top: 1.5rem;
+  }
+}
+
+@media (min-width: 519px) {
+  .easy-to-use .steps-list {
+    margin-top: 2.5rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .easy-to-use .background {
+    top: -10.5rem;
+  }
+
+  .easy-to-use .steps-list {
+    padding: 0rem 1rem;
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .easy-to-use {
+    margin-top: 6rem;
+  }
+  
+  .easy-to-use .title {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+  }
+  
+  .easy-to-use .background {
+    top: -10rem;
+  }
+  
+  .easy-to-use .steps-list {
+    margin-top: auto;
+    padding: 0rem;
+  }
+  
+  .easy-to-use .videos-list {
+    margin-top: 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .easy-to-use {
+    margin-top: 6rem;
+  }
+  
+  .easy-to-use .title {
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  .easy-to-use .background {
+    top: -13rem;
+    margin-left: -3rem;
+  }
+  
+  .easy-to-use .steps-list {
+    margin-top: auto;
+  }
+  
+  .easy-to-use .videos-list {
+    margin-top: 0px;
+  }
+
+  .easy-to-use .videos-list .placeholder {
+    min-height: 104px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .easy-to-use {
+    margin-top: 6rem;
+  }
+  
+  .easy-to-use .title {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    margin-bottom: 4rem;
+  }
+  
+  .easy-to-use .background {
+    top: -15rem;
+    margin-left: -3rem;
+  }
+  
+  .easy-to-use .steps-list {
+    margin-top: auto;
+  }
+  
+  .easy-to-use .videos-list {
+    margin-top: 0px;
+  }
+
+  .easy-to-use .videos-list .placeholder {
+    min-height: 128px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .easy-to-use .title {
+    margin-bottom: 5rem;
+  }
+
+  .easy-to-use .background {
+    top: -19rem;
+  }
+}
+

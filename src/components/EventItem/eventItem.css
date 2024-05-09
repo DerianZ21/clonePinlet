@@ -1,0 +1,140 @@
+.event-item {
+  border: 1px solid white;
+  border-radius: 5rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.event-item > .row {
+  padding-top: .2rem;
+  padding-bottom: .2rem;
+}
+
+.event-item .title {
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.event-item .description {
+  /* margin-top: -1rem; */
+  margin-bottom: 0px;
+  font-size: 1.2rem;
+}
+
+.event-item .image {
+  border: 1rem solid transparent;
+  border-radius: 5rem;
+}
+
+/* MEDIUM */
+.event-item.medium .title {
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+}
+
+.event-item.medium .description {
+  font-size: 1rem;
+}
+
+.event-item.medium .image {
+  border: .3rem solid transparent;
+  border-radius: 5rem;
+  max-height: 132px;
+}
+
+/* SMALL */
+.event-item.small .title {
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+.event-item.small .description {
+  font-size: .8rem;
+}
+
+.event-item.small .image {
+  border: 1rem solid transparent;
+  border-radius: 5rem;
+}
+
+@media (min-width: 768px) {
+  .event-item {
+    border: 1px solid white;
+    border-radius: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .event-item > .row {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+  
+  .event-item .title {
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+  
+  .event-item .description {
+    /* margin-top: -1rem; */
+    margin-bottom: 0px;
+    font-size: 2rem;
+  }
+  
+  .event-item .image {
+    border: 1rem solid transparent;
+    border-radius: 5rem;
+  }
+  
+  /* MEDIUM */
+  .event-item.medium .title {
+    font-size: 1.7rem;
+    line-height: 1.7rem;
+  }
+  
+  .event-item.medium .description {
+    font-size: 1.1rem;
+  }
+  
+  .event-item.medium .image {
+    border: .8rem solid transparent;
+    border-radius: 5rem;
+    max-height: 132px;
+  }
+  
+  /* SMALL */
+  .event-item.small .title {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  
+  .event-item.small .description {
+    font-size: 1.2rem;
+  }
+  
+  .event-item.small .image {
+    border: 1rem solid transparent;
+    border-radius: 5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .event-item.medium .title {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  
+  .event-item.medium .description {
+    font-size: 1.3rem;
+  }
+  
+  .event-item.medium .image {
+    border: 1rem solid transparent;
+    border-radius: 5rem;
+    max-height: 132px;
+  }
+}

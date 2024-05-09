@@ -1,0 +1,238 @@
+#functions {
+  background: url('/public/assets/Recurso23-min.png');
+  background-repeat: no-repeat ;
+  background-size: contain;
+  position: relative;
+}
+
+#functions .content {
+  margin-top: 10vw;
+  position: relative;
+}
+
+#functions .features {
+  /* background: linear-gradient(180deg, transparent 0%, transparent 20%, #364550 40%); */
+}
+
+.presentation {
+  position: relative;
+  z-index: 1;
+  /* margin-top: 2rem; */
+}
+
+.presentation .logo {
+  margin-top: 4rem;
+}
+
+.presentation .header {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: bold;
+  margin: 2rem 0px;
+  margin-top: 6rem;
+  color: white;
+}
+
+.presentation .description {
+  font-size: 1rem;
+  line-height: 1rem;
+  color: white;
+}
+
+.header p {
+  margin-bottom: 0px;
+}
+
+.grad-to-transparent {
+  background: linear-gradient(180deg, #364550 0%, #364550 60%, transparent 100%);
+  height: 10rem;
+  margin-bottom: -8rem;
+  z-index: 1;
+}
+
+@media (min-width: 576px) {  
+  #functions .content {
+    margin-top: 2rem;
+  }
+
+  #functions .features {
+    /* background: linear-gradient(180deg, transparent 0%, transparent 20%, #364550 40%); */
+  }
+
+  .presentation .logo {
+    margin-top: 8rem;
+  }
+
+  .presentation .header {
+      margin-top: 8rem;
+  }
+}
+
+@media (min-width: 768px) {  
+  #functions .content {
+    margin-top: 9rem;
+  }
+
+  #functions .features {
+    background-color: initial
+  }
+  
+  .presentation {
+    margin-top: 0rem;
+  }
+  
+  .presentation .logo {
+    margin-top: 2rem;
+  }
+  
+  .presentation .header {
+    font-size: 2rem;
+    line-height: 2rem;
+    margin: 2rem 0px;
+    color: black;
+  }
+  
+  .presentation .description {
+    font-size: 1rem;
+    line-height: 1rem;
+    color: black;
+  }
+
+  .grad-to-transparent {
+    background: linear-gradient(180deg, #364550 0%, #364550 70%, transparent 100%);
+    height: 10rem;
+    margin-bottom: -12rem;
+  }
+}
+
+@media (min-width: 992px) {  
+  #functions .content {
+    margin-top: 24vw;
+  }
+  
+  .presentation {
+    margin-top: 0rem;
+  }
+  
+  .presentation .logo {
+    margin-top: 4rem;
+  }
+  
+  .presentation .header {
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    margin: 2rem 0px;
+    color: black;
+  }
+  
+  .presentation .description {
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    color: black;
+  }
+
+  .grad-to-transparent {
+    height: 22rem;
+    margin-bottom: -22rem;
+  }
+}
+
+@media (min-width: 1200px) {  
+  #functions .content {
+    margin-top: 24vw;
+  }
+  
+  .presentation {
+    margin-top: 0rem;
+  }
+  
+  .presentation .logo {
+    margin-top: 4rem;
+  }
+  
+  .presentation .header {
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+    margin: 2rem 0px;
+    color: black;
+  }
+  
+  .presentation .description {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: black;
+  }
+
+  .grad-to-transparent {
+    height: 28rem;
+    margin-bottom: -28rem;
+  }
+}
+
+@media (min-width: 1400px) {  
+  #functions .content {
+    margin-top: 24vw;
+  }
+  
+  .presentation {
+    margin-top: 0rem;
+  }
+  
+  .presentation .logo {
+    margin-top: 4rem;
+  }
+  
+  .presentation .header {
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+    margin: 2rem 0px;
+    color: black;
+  }
+  
+  .presentation .description {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color: black;
+  }
+}
+
+@media (min-width: 1700px) {  
+  .presentation {
+    padding-top: 8rem;
+  }
+
+  #functions .content {
+    margin-top: 28vw;
+  }
+}
+
+@media (min-width: 2429px) {  
+  .presentation {
+    padding-top: 16rem;
+  }
+
+  #functions .content {
+    /* margin-top: 36vw; */
+  }
+}
+
+
+
+
+
+.arrow {
+  max-width: 72px;
+  cursor: pointer;
+}
+
+.arrow.top {
+  rotate: -90deg;
+}
+
+.arrow.bottom {
+  rotate: 90deg;
+}
+
+.arrow.left {
+  rotate: 180deg;
+}

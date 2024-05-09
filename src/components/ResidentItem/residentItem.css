@@ -1,0 +1,142 @@
+.resident-item {
+  margin-top: .5rem;
+  padding: .5rem;
+}
+
+.resident-item .text-wrapper {
+  color: gray;
+  font-size: 1.5rem;
+}
+
+.resident-item img {
+  max-width: 24px;
+  max-height: 24px;
+}
+
+.resident-item .title {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  margin-bottom: 0px;
+}
+
+.resident-item .description {
+  font-size: .8rem;
+  line-height: .8rem;
+}
+
+@media (min-width: 768px) {
+  .resident-item {
+    margin-top: .5rem;
+    padding: .5rem;
+  }
+  
+  .resident-item .text-wrapper {
+    color: gray;
+    font-size: 1.5rem;
+  }
+  
+  .resident-item img {
+    max-width: 32px;
+    max-height: 32px;
+  }
+  
+  .resident-item .title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    margin-bottom: 0px;
+  }
+  
+  .resident-item .description {
+    font-size: .9rem;
+    line-height: .9rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .resident-item {
+    margin-top: .5rem;
+    padding: 0rem;
+  }
+  
+  .resident-item .text-wrapper {
+    color: gray;
+    font-size: 1.5rem;
+  }
+  
+  .resident-item img {
+    max-width: 28px;
+    max-height: 28px;
+  }
+  
+  .resident-item .title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    margin-bottom: 0px;
+  }
+  
+  .resident-item .description {
+    font-size: .8rem;
+    line-height: .8rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .resident-item {
+    margin-top: 0rem;
+    padding: .5rem;
+  }
+  
+  .resident-item .text-wrapper {
+    color: gray;
+    font-size: 1.5rem;
+  }
+  
+  .resident-item img {
+    max-width: 32px;
+    max-height: 32px;
+  }
+  
+  .resident-item .title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    margin-bottom: 0px;
+  }
+  
+  .resident-item .description {
+    font-size: .9rem;
+    line-height: .9rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .resident-item {
+    margin-top: .5rem;
+    padding: .5rem;
+  }
+  
+  .resident-item .text-wrapper {
+    color: gray;
+    font-size: 1.5rem;
+  }
+  
+  .resident-item img {
+    max-width: 32px;
+    max-height: 32px;
+  }
+  
+  .resident-item .title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    margin-bottom: 0px;
+  }
+  
+  .resident-item .description {
+    font-size: .9rem;
+    line-height: .9rem;
+  }
+}

@@ -1,0 +1,47 @@
+.function-item {
+
+}
+
+.function-item .text-wrapper {
+  color: white;
+  margin-top: .5rem;
+  font-size: .8rem;
+}
+
+.function-item img {
+  max-width: 32px;
+  max-height: 32px;
+}
+
+@media (min-width: 768px) {  
+  .function-item .text-wrapper {
+    font-size: 1rem;
+  }
+  
+  .function-item img {
+    max-width: 40px;
+    max-height: 40px;
+  }
+}
+
+@media (min-width: 992px) {  
+  .function-item .text-wrapper {
+    font-size: 1.2rem;
+  }
+  
+  .function-item img {
+    max-width: 48px;
+    max-height: 48px;
+  }
+}
+
+@media (min-width: 1200px) {  
+  .function-item .text-wrapper {
+    font-size: 1.5rem;
+  }
+  
+  .function-item img {
+    max-width: 56px;
+    max-height: 56px;
+  }
+}

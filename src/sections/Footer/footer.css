@@ -1,0 +1,148 @@
+#footer {
+  color: white;
+  padding: 1rem;
+}
+
+.footer .link-header {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.footer .link {
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+.footer .network-logo {
+  width: auto;
+  height: 32px;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.footer .logo-wrapper img {
+  max-width: 120px;
+  padding: 1rem 0px;
+  cursor: pointer;
+}
+
+.footer .links-wrapper {
+  margin-top: 1rem;
+}
+
+.footer .top-wrapper {
+  width: 96px;
+  position: absolute;
+  right: 1rem;
+}
+
+.footer .top-wrapper .img-wrapper {
+  position: relative;
+  background-color: #1a2b37;
+  border-radius: 50%;
+  height: 36px;
+  width: 36px;
+}
+
+.footer .top-wrapper .img-wrapper:hover {
+  cursor: pointer;
+}
+
+.footer .top-wrapper img {
+  height: 16px;
+  padding: 0px;
+  width: auto;
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.footer .top-wrapper p {
+  margin-top: .5rem;
+  font-size: .8rem;
+}
+
+@media (min-width: 768px) { 
+  #footer {
+    padding: 2rem;
+  }
+  
+  .footer .link-header {
+    font-size: 1.2rem;
+  }
+  
+  .footer .link {
+    font-size: 1rem;
+  }
+  
+  .footer .network-logo {
+    height: 48px;
+  }
+  
+  .footer .logo-wrapper img {
+    max-width: 240px;
+  }
+  
+  .footer .top-wrapper {
+    right: 2rem;
+  }
+  
+  .footer .top-wrapper .img-wrapper {
+    height: 56px;
+    width: 56px;
+  }
+  
+  .footer .top-wrapper img {
+    height: 22px;
+  }
+  
+  .footer .top-wrapper p {
+    font-size: 1.3rem;
+  }
+}
+
+
+
+
+@media (min-width: 992px) { 
+  #footer {
+    padding: 2rem;
+  }
+  
+  .footer .link-header {
+    font-size: 1.3rem;
+  }
+  
+  .footer .link {
+    font-size: 1rem;
+  }
+  
+  .footer .network-logo {
+    height: 48px;
+  }
+  
+  .footer .logo-wrapper img {
+    max-width: 240px;
+  }
+  
+  .footer .top-wrapper {
+    right: 2rem;
+  }
+  
+  .footer .top-wrapper .img-wrapper {
+    height: 56px;
+    width: 56px;
+  }
+  
+  .footer .top-wrapper img {
+    height: 22px;
+  }
+  
+  .footer .top-wrapper p {
+    font-size: 1.3rem;
+  }
+}

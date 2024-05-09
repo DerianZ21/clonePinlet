@@ -1,0 +1,46 @@
+.bitacora-item {
+
+}
+
+.bitacora-item .text {
+  border: 2px solid #FF4525;
+  border-radius: 2rem;
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  color: #808080;
+}
+
+.bitacora-item .icon-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.bitacora-item .icon {
+  color: #FF4525;
+  background: white;
+  padding: .5rem;
+  margin-right: -1rem;
+  border-radius: 1rem;
+}
+
+@media (min-width: 992px) {
+  .bitacora-item .icon {
+    background-color: #E8E8E8;
+  }
+
+  .bitacora-item .text {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .bitacora-item .text {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .bitacora-item .text {
+    font-size: 1.4rem;
+  }
+}

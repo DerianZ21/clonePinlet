@@ -1,0 +1,36 @@
+.pn-link {
+  color: white;
+  margin: 0rem 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  border-color: white;
+}
+
+.navbar-toggler-icon {
+  
+}
+
+.pn-link:hover {
+  color: #FF4525;
+}
+
+@media (min-width: 992px) {
+  .pn-link {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pn-link {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .pn-link {
+    font-size: 1.3rem;
+  }
+}
