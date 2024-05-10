@@ -34,7 +34,7 @@ export const Footer = () => {
                         <br />
                         <p className="link-header">Acerca de</p>
                         <p className="link">Nosotros</p>
-                        <p className="link"><a href="https://pinlet.app/Politicas.pdf" target="_blank" className="link">Políticas de privacidad </a></p>
+                        <p className="link"><a href="https://pinlet.app/Politicas.pdf" target="_blank" className="link" rel="noreferrer">Políticas de privacidad </a></p>
                       </div> 
                     </div>
                   </div>

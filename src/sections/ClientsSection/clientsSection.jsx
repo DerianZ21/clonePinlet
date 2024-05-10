@@ -7,14 +7,7 @@ import './clientsSection.css'
 
 // https://react-slick.neostack.com/docs/get-started
 
-const settings = {
-  dots: false,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  autoplay: true,
-};
+
 
 const videoSettings = {
   dots: false,

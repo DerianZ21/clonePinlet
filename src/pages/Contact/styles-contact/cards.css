@@ -4,7 +4,6 @@
     flex-direction: column;
     justify-content: space-around;
     padding: 40px;
-    color: var(--color-fuente);
 
 }
 
@@ -12,6 +11,7 @@
     display: flex;
     flex-direction: row;
     gap: 30px;
+    border: none;
 }
 
 .content-card {
@@ -29,7 +29,7 @@
 .card a {
     width: 100%;
     text-decoration: none;
-    color: var(--color-fuente);
+    color: #000000;
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -40,7 +40,7 @@
 .img-card {
     width: 90px;
     height: 90px;
-    border: solid 2px var(--color-representativo);
+    border: solid 2px #FF4525;
     align-content: center;
     border-radius: 100px;
 }

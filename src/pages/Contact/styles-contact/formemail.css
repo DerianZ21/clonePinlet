@@ -1,6 +1,5 @@
 .main-form-email {
-    max-width: 900px;
-    background-color: var(--color-fondo);
+    max-width: 1000px;
     display: flex;
     align-self: center;
     padding: 20px 20px 20px 20px ;
@@ -16,17 +15,11 @@
     padding: 5px 0;
     margin: 0;
     text-align: left;
-    color: var(--color-fuente);
     opacity: 0.7;
 }
 
-.container-form-contact form {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    width: 85%;
-    margin: auto;
-    font-family: Inter, sans-serif;
+.main-form-email form {
+    width: 100%;
 }
 
 .contenedor-input-contacto {
@@ -38,36 +31,34 @@
     gap: 20px;
 }
 
-.contenedor-input-contacto div {
+.contenedor-input-contacto div{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     padding-bottom: 10px;
 }
 
 .medios-contactos{
     display: flex;
-    flex-direction: row;
+    flex-direction: row !important; 
     justify-content: space-between;
     gap: 30px;
 }
 
 .medios-contactos .medicorreo-{
-    width: 70%;
+    width: 90%;
 }
 
 .medios-contactos .medio-telefono{
     width: 70%;
 }
 
-.medios-contactos .medio-telefono input{
-    width: 75%;
-}
-
 .contenedor-input-contacto div input {
-    width: 90%;
+    width: 100%;
     height: 45px;
     padding: 0 20px 0 20px;
     border-radius: 100px;
-    border: 1px solid var(--color-fuente);
+    border: 1px solid #000000;
     margin-top: 10px;
     color: var(--color-fuente);
     outline: none;
@@ -78,7 +69,7 @@
 .contenedor-input-contacto div label {
     font-size: 13px;
     padding-left: 20px;
-    color: var(--color-fuente);
+    color: #000000;
     opacity: 0.7;
 }
 
@@ -88,9 +79,9 @@
 .contenedor-input-contacto div textarea {
     margin-top: 10px;
     height: 140px;
-    width: 90%;
+    width: 100%;
     padding: 0 20px 0 20px;
-    border: 1px solid var(--color-fuente);
+    border: 1px solid #000000;
     border-radius: 18px;
     background-color: var(--color-fondo);
     color: #535353;
@@ -103,7 +94,7 @@
 
 .contenedor-input-contacto button:active {
     background-color: var(--color-fondo-claro);
-    color: var(--color-representativo);
+    color: #FF4525;
 
 }
 
@@ -118,10 +109,10 @@
 /*--------boton de enviar------*/
 
 .btn-shine {
-    background-color: var(--color-representativo);
+    background-color: #FF4525;
     width: 125px;
     height: 50px;
-    color: var(--color-fuente-claro);
+    color: #ffffff;
     border-radius: 10px;
     cursor: pointer;
     position: relative;
@@ -230,7 +221,7 @@
 
     .medios-contactos{
         display: flex;
-        flex-direction: column;
+        flex-direction: column !important;
         gap: 30px;
     }
     
@@ -239,6 +230,6 @@
     }
 
     .medios-contactos .medio-telefono input{
-        width: 90%;
+        width: 100%;
     }
 }

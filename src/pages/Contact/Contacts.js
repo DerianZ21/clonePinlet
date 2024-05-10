@@ -4,11 +4,8 @@ import Cards from './Cards'
 import './styles-contact/contact.css'
 
 function Contacts() {
-
-
-
   return (
-    <div className='main-contact'>
+    <div id='contacto' className='main-contact'>
       <h1>CONTÁCTANOS</h1>
       <div className='content-contact'>
         <FormEmail />

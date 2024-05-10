@@ -1,5 +1,5 @@
 
-import { EventItem } from "../../components/EventItem/eventItem"
+
 import { FunctionItem } from "../../components/FunctionItem/functionItem"
 import { ResidentsSection } from "../ResidentsSection/residentsSection";
 import { AdminSection } from "../AdminSection/adminSection";
